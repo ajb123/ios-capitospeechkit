@@ -1,0 +1,44 @@
+PODS:
+  - CapitoSpeechKit (3.3.0):
+    - RestKit (~> 0.27.0)
+    - SpeechKit (~> 2.2)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit (0.27.2):
+    - RestKit/Core (= 0.27.2)
+  - RestKit/Core (0.27.2):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.2):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.2):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.2):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.2):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SOCKit (1.1)
+  - SpeechKit (2.2.2)
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - CapitoSpeechKit
+
+SPEC CHECKSUMS:
+  CapitoSpeechKit: b1defcc069a26e37733cb920765e611f3fb0dd44
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  RestKit: 556c913b0640c5bc5a9cb972361504e3ed628a1d
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SpeechKit: f9b9498a7e8696ec284c1fb2722750736bddbc14
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: c5fbf038a0509384f62b0ab114eb92fd2a669144
+
+COCOAPODS: 1.3.1

@@ -183,7 +183,7 @@ UIImage* busyImage;
     
     [self.activityView setMessage:@"Processing..."];
     [self.activityView show];
-    self.transcriptionLabel.text = [NSString stringWithFormat:@"\"%@\"", capTranscription.firstResult];
+    self.transcriptionLabel.text = [NSString stringWithFormat:@"\"%@\"", [capTranscription.firstResult stringByReplacingOccurrencesOfString:@" | " withString:@" "]];
 }
 
 - (void) speechControllerDidFinishWithResults:(CapitoResponse *)response {

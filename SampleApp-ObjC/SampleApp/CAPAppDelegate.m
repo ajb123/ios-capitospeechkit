@@ -29,6 +29,7 @@
     NSString *_appVersion = [NSString stringWithFormat:@"%@.%@", _majorVersion, _minorVersion];
     [settings setAppVersion:_appVersion];
     [settings setMode:CAPModeTest];
+    settings.silenceDetectionTime = 3.0;
     CapitoController *controller = [CapitoController getInstance];
     [controller setupWithID:@"a2d65251-0fe4-476f-994d-5dce055f555f" host:@"sysportal.test.a.cloud.capitosystems.com" port:[NSNumber numberWithInt:443] useSSL:YES];
     

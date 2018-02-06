@@ -7,9 +7,8 @@
 //
 
 #import "CAPAppDelegate.h"
-#import <CapitoSpeechKit/CapitoController.h>
-#import <CapitoSpeechKit/CAPSettings.h>
-#import <CoreLocation/CLLocationManager.h>
+
+@import CapitoSpeechKit;
 
 @interface NSURLRequest (DummyInterface)
 + (BOOL)allowsAnyHTTPSCertificateForHost:(NSString*)host;
@@ -35,7 +34,7 @@
     
     NSString *status=[controller connect];
     NSLog(@"Capito Speech Kit status [%@]",status);
-    [CLLocationManager authorizationStatus];
+    
     return YES;
 }
 							
@@ -68,10 +67,5 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     [[CapitoController getInstance] disconnect];
 }
-
-+ (UIColor*)textColor {
-    return [UIColor colorWithRed:0.0 green:122.0/255.0 blue:1.0 alpha:1.0];
-}
-
 
 @end

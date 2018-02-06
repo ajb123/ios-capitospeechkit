@@ -10,19 +10,8 @@
 		4F55644E1FE19B06009875A7 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F55644D1FE19B05009875A7 /* Speech.framework */; };
 		9578B14F19E56A9900F58CB7 /* CAPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B10419E56A9900F58CB7 /* CAPAppDelegate.m */; };
 		9578B15019E56A9900F58CB7 /* CAPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B10619E56A9900F58CB7 /* CAPViewController.m */; };
-		9578B17219E56A9900F58CB7 /* rec-btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 9578B12A19E56A9900F58CB7 /* rec-btn.png */; };
-		9578B17319E56A9900F58CB7 /* rec1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9578B12B19E56A9900F58CB7 /* rec1.png */; };
-		9578B17419E56A9900F58CB7 /* rec2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9578B12C19E56A9900F58CB7 /* rec2.png */; };
-		9578B17519E56A9900F58CB7 /* rec3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9578B12D19E56A9900F58CB7 /* rec3.png */; };
 		9578B18519E56A9900F58CB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9578B13D19E56A9900F58CB7 /* Images.xcassets */; };
 		9578B18719E56A9900F58CB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B14019E56A9900F58CB7 /* main.m */; };
-		9578B1A219E56BF200F58CB7 /* ActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B19519E56BF200F58CB7 /* ActivityView.m */; };
-		9578B1A319E56BF200F58CB7 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B19719E56BF200F58CB7 /* iToast.m */; };
-		9578B1A519E56BF200F58CB7 /* SegoeWP-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9578B19A19E56BF200F58CB7 /* SegoeWP-Light.ttf */; };
-		9578B1A619E56BF200F58CB7 /* SegoeWP-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9578B19B19E56BF200F58CB7 /* SegoeWP-Semibold.ttf */; };
-		9578B1A719E56BF200F58CB7 /* SpokenToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B19D19E56BF200F58CB7 /* SpokenToastMessage.m */; };
-		9578B1A819E56BF200F58CB7 /* ToastMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B19F19E56BF200F58CB7 /* ToastMessage.m */; };
-		9578B1A919E56BF200F58CB7 /* UIButton+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9578B1A119E56BF200F58CB7 /* UIButton+Extensions.m */; };
 		9578B1AF19E56D9A00F58CB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9578B10119E56A9900F58CB7 /* Main.storyboard */; };
 		95C353591919040B009CF88E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C353581919040B009CF88E /* Security.framework */; };
 		95C3535D191A3A7B009CF88E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95C3535C191A3A7B009CF88E /* CFNetwork.framework */; };
@@ -36,7 +25,7 @@
 		95DEAF7818B39ED900BAF41E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DEAF7718B39ED900BAF41E /* AVFoundation.framework */; };
 		95DEAF8018B39F4200BAF41E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DEAF7F18B39F4200BAF41E /* SystemConfiguration.framework */; };
 		95DEAF8218B39F6300BAF41E /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95DEAF8118B39F6300BAF41E /* MobileCoreServices.framework */; };
-		DAF4C88B2C56EB1CD6CC366E /* libPods-SampleApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6923835D87053AC55DB795 /* libPods-SampleApp.a */; };
+		E69EFE2BEE228F2E9CBAC0E8 /* Pods_SampleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EA1FB0B1B9956DC6C57DE0F /* Pods_SampleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,34 +42,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3EA1FB0B1B9956DC6C57DE0F /* Pods_SampleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F55644D1FE19B05009875A7 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
-		5B6923835D87053AC55DB795 /* libPods-SampleApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9578B10219E56A9900F58CB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9578B10319E56A9900F58CB7 /* CAPAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAPAppDelegate.h; path = SampleApp/CAPAppDelegate.h; sourceTree = "<group>"; };
 		9578B10419E56A9900F58CB7 /* CAPAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAPAppDelegate.m; path = SampleApp/CAPAppDelegate.m; sourceTree = "<group>"; };
 		9578B10519E56A9900F58CB7 /* CAPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CAPViewController.h; path = SampleApp/CAPViewController.h; sourceTree = "<group>"; };
 		9578B10619E56A9900F58CB7 /* CAPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CAPViewController.m; path = SampleApp/CAPViewController.m; sourceTree = "<group>"; };
 		9578B10819E56A9900F58CB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		9578B12A19E56A9900F58CB7 /* rec-btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rec-btn.png"; sourceTree = "<group>"; };
-		9578B12B19E56A9900F58CB7 /* rec1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec1.png; sourceTree = "<group>"; };
-		9578B12C19E56A9900F58CB7 /* rec2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec2.png; sourceTree = "<group>"; };
-		9578B12D19E56A9900F58CB7 /* rec3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rec3.png; sourceTree = "<group>"; };
 		9578B13D19E56A9900F58CB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SampleApp/Images.xcassets; sourceTree = "<group>"; };
 		9578B14019E56A9900F58CB7 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SampleApp/main.m; sourceTree = "<group>"; };
 		9578B14319E56A9900F58CB7 /* SampleApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SampleApp-Info.plist"; path = "SampleApp/SampleApp-Info.plist"; sourceTree = "<group>"; };
 		9578B14419E56A9900F58CB7 /* SampleApp-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SampleApp-Prefix.pch"; path = "SampleApp/SampleApp-Prefix.pch"; sourceTree = "<group>"; };
-		9578B19419E56BF200F58CB7 /* ActivityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActivityView.h; path = SampleApp/ActivityView.h; sourceTree = "<group>"; };
-		9578B19519E56BF200F58CB7 /* ActivityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActivityView.m; path = SampleApp/ActivityView.m; sourceTree = "<group>"; };
-		9578B19619E56BF200F58CB7 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iToast.h; path = SampleApp/iToast.h; sourceTree = "<group>"; };
-		9578B19719E56BF200F58CB7 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iToast.m; path = SampleApp/iToast.m; sourceTree = "<group>"; };
-		9578B19A19E56BF200F58CB7 /* SegoeWP-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SegoeWP-Light.ttf"; path = "SampleApp/SegoeWP-Light.ttf"; sourceTree = "<group>"; };
-		9578B19B19E56BF200F58CB7 /* SegoeWP-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SegoeWP-Semibold.ttf"; path = "SampleApp/SegoeWP-Semibold.ttf"; sourceTree = "<group>"; };
-		9578B19C19E56BF200F58CB7 /* SpokenToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpokenToastMessage.h; path = SampleApp/SpokenToastMessage.h; sourceTree = "<group>"; };
-		9578B19D19E56BF200F58CB7 /* SpokenToastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpokenToastMessage.m; path = SampleApp/SpokenToastMessage.m; sourceTree = "<group>"; };
-		9578B19E19E56BF200F58CB7 /* ToastMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastMessage.h; path = SampleApp/ToastMessage.h; sourceTree = "<group>"; };
-		9578B19F19E56BF200F58CB7 /* ToastMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ToastMessage.m; path = SampleApp/ToastMessage.m; sourceTree = "<group>"; };
-		9578B1A019E56BF200F58CB7 /* UIButton+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+Extensions.h"; path = "SampleApp/UIButton+Extensions.h"; sourceTree = "<group>"; };
-		9578B1A119E56BF200F58CB7 /* UIButton+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Extensions.m"; path = "SampleApp/UIButton+Extensions.m"; sourceTree = "<group>"; };
 		95C353581919040B009CF88E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		95C3535C191A3A7B009CF88E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		95C3535E191A3A98009CF88E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -116,69 +89,28 @@
 				95DEAF3B18B3960300BAF41E /* CoreGraphics.framework in Frameworks */,
 				95DEAF3D18B3960300BAF41E /* UIKit.framework in Frameworks */,
 				95DEAF3918B3960300BAF41E /* Foundation.framework in Frameworks */,
-				DAF4C88B2C56EB1CD6CC366E /* libPods-SampleApp.a in Frameworks */,
+				E69EFE2BEE228F2E9CBAC0E8 /* Pods_SampleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9578B10919E56A9900F58CB7 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				9578B12A19E56A9900F58CB7 /* rec-btn.png */,
-				9578B12B19E56A9900F58CB7 /* rec1.png */,
-				9578B12C19E56A9900F58CB7 /* rec2.png */,
-				9578B12D19E56A9900F58CB7 /* rec3.png */,
-			);
-			name = Images;
-			path = SampleApp/Images;
-			sourceTree = "<group>";
-		};
 		9578B1AA19E56CED00F58CB7 /* SampleApp */ = {
 			isa = PBXGroup;
 			children = (
 				9578B1AD19E56D4100F58CB7 /* Resources */,
 				9578B1AE19E56D5900F58CB7 /* Supporting Files */,
-				9578B1AC19E56D1200F58CB7 /* Utils */,
-				9578B1AB19E56D0C00F58CB7 /* Views */,
 				9578B10119E56A9900F58CB7 /* Main.storyboard */,
 				9578B14019E56A9900F58CB7 /* main.m */,
 			);
 			name = SampleApp;
 			sourceTree = "<group>";
 		};
-		9578B1AB19E56D0C00F58CB7 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9578B19419E56BF200F58CB7 /* ActivityView.h */,
-				9578B19519E56BF200F58CB7 /* ActivityView.m */,
-				9578B1A019E56BF200F58CB7 /* UIButton+Extensions.h */,
-				9578B1A119E56BF200F58CB7 /* UIButton+Extensions.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		9578B1AC19E56D1200F58CB7 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				9578B19619E56BF200F58CB7 /* iToast.h */,
-				9578B19719E56BF200F58CB7 /* iToast.m */,
-				9578B19C19E56BF200F58CB7 /* SpokenToastMessage.h */,
-				9578B19D19E56BF200F58CB7 /* SpokenToastMessage.m */,
-				9578B19E19E56BF200F58CB7 /* ToastMessage.h */,
-				9578B19F19E56BF200F58CB7 /* ToastMessage.m */,
-			);
-			name = Utils;
-			sourceTree = "<group>";
-		};
 		9578B1AD19E56D4100F58CB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9578B10919E56A9900F58CB7 /* Images */,
 				9578B13D19E56A9900F58CB7 /* Images.xcassets */,
-				9578B19A19E56BF200F58CB7 /* SegoeWP-Light.ttf */,
-				9578B19B19E56BF200F58CB7 /* SegoeWP-Semibold.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -231,7 +163,7 @@
 				95DEAF3818B3960300BAF41E /* Foundation.framework */,
 				95DEAF3A18B3960300BAF41E /* CoreGraphics.framework */,
 				95DEAF3C18B3960300BAF41E /* UIKit.framework */,
-				5B6923835D87053AC55DB795 /* libPods-SampleApp.a */,
+				3EA1FB0B1B9956DC6C57DE0F /* Pods_SampleApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -309,13 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9578B1AF19E56D9A00F58CB7 /* Main.storyboard in Resources */,
-				9578B1A619E56BF200F58CB7 /* SegoeWP-Semibold.ttf in Resources */,
 				9578B18519E56A9900F58CB7 /* Images.xcassets in Resources */,
-				9578B1A519E56BF200F58CB7 /* SegoeWP-Light.ttf in Resources */,
-				9578B17519E56A9900F58CB7 /* rec3.png in Resources */,
-				9578B17419E56A9900F58CB7 /* rec2.png in Resources */,
-				9578B17219E56A9900F58CB7 /* rec-btn.png in Resources */,
-				9578B17319E56A9900F58CB7 /* rec1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,10 +256,24 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SampleApp/Pods-SampleApp-frameworks.sh",
 				"${PODS_ROOT}/CapitoSpeechKit/CapitoSpeechKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ISO8601DateFormatterValueTransformer/ISO8601DateFormatterValueTransformer.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/RKValueTransformers/RKValueTransformers.framework",
+				"${BUILT_PRODUCTS_DIR}/RestKit/RestKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SOCKit/SOCKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TWMessageBarManager/TWMessageBarManager.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionKit/TransitionKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CapitoSpeechKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ISO8601DateFormatterValueTransformer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKValueTransformers.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RestKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SOCKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWMessageBarManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,13 +323,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9578B1A919E56BF200F58CB7 /* UIButton+Extensions.m in Sources */,
-				9578B1A819E56BF200F58CB7 /* ToastMessage.m in Sources */,
 				9578B18719E56A9900F58CB7 /* main.m in Sources */,
-				9578B1A719E56BF200F58CB7 /* SpokenToastMessage.m in Sources */,
-				9578B1A219E56BF200F58CB7 /* ActivityView.m in Sources */,
 				9578B15019E56A9900F58CB7 /* CAPViewController.m in Sources */,
-				9578B1A319E56BF200F58CB7 /* iToast.m in Sources */,
 				9578B14F19E56A9900F58CB7 /* CAPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,7 +431,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G34N2E4D9A;
@@ -533,7 +468,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CLANG_MODULES_AUTOLINK = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = G34N2E4D9A;

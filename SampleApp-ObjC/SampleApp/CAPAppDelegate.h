@@ -6,12 +6,10 @@
 //  Copyright (c) 2014 Capito Systems. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 @interface CAPAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
-+ (UIColor*)textColor;
 
 @end

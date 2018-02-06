@@ -6,10 +6,8 @@
 //  Copyright (c) 2014 Capito Systems. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CapitoSpeechKit/CapitoController.h>
-#import "ActivityView.h"
-
+@import UIKit;
+@import CapitoSpeechKit;
 
 @interface CAPViewController : UIViewController <SpeechDelegate, TouchDelegate, TextDelegate, UISearchBarDelegate> {
     BOOL isRecording;
@@ -17,10 +15,8 @@
 }
 
 @property (strong, nonatomic) IBOutlet UIButton *microphone;
-@property (nonatomic, retain) ActivityView* activityView;
 @property (strong, nonatomic) IBOutlet UITextView *transcriptionView;
 @property (weak, nonatomic) IBOutlet UIButton *info;
-@property (weak, nonatomic) IBOutlet UIButton *settings;
 @property (weak, nonatomic) IBOutlet UISearchBar *textControlBar;
 @property (weak, nonatomic) IBOutlet UIButton *textControl;
 @property (weak, nonatomic) IBOutlet UITextView *infoText;

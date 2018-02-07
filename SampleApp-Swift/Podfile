@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '10.0'
+
+target "SampleApp" do
+  pod 'CapitoSpeechKit'
+  pod 'TWMessageBarManager'
+  pod 'MBProgressHUD'
+end

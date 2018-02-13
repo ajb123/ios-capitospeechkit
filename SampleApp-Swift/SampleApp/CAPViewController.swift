@@ -39,7 +39,7 @@ class CAPViewController: UIViewController {
         self.initialiseTextControlBar()
 
         // Set info text
-        let versionInfo = self.appVersionNumberDisplayString()
+        let versionInfo = CAPAppDelegate.appVersionNumberDisplayString()
         let versionStr = self.infoText.text.appending(versionInfo)
         
         self.infoText.text = versionStr
@@ -89,16 +89,6 @@ class CAPViewController: UIViewController {
         self.textControlBar.isHidden = true
         self.textControlBar.delegate = self
         self.textControlBar.alpha = 0.0
-    }
-
-    func appVersionNumberDisplayString() -> String {
-        guard let infoDictionary = Bundle.main.infoDictionary,
-              let majorVersion = infoDictionary["CFBundleShortVersionString"],
-              let minorVersion = infoDictionary["CFBundleVersion"] else {
-            return ""
-        }
-
-        return "\(majorVersion).\(minorVersion)"
     }
 }
 
@@ -157,7 +147,7 @@ extension CAPViewController: SpeechDelegate {
     }
     
     func speechControllerDidFinishRecording() {
-        self.isRecording = true
+        self.isRecording = false
         self.microphone.setImage(readyImage, for: .normal)
     }
     

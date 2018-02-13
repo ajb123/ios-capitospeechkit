@@ -20,12 +20,16 @@ class CAPAppDelegate: UIResponder, UIApplicationDelegate {
         
         // MARK: - Capito login
         let settings = CAPSettings.getInstance();
+        settings?.setAppVersion(CAPAppDelegate.appVersionNumberDisplayString())
         settings?.setMode(.test);
         settings?.silenceDetectionTime = 3.0
+        
         let controller = CapitoController.getInstance();
         controller?.setup(withID: "a2d65251-0fe4-476f-994d-5dce055f555f", host: "sysportal.test.a.cloud.capitosystems.com", port: 443, useSSL: true)
+        
         let status = controller?.connect();
         debugPrint("Capito Speech Kit status: ", status!);
+        
         return true
     }
 
@@ -56,6 +60,16 @@ class CAPAppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
+    }
+    
+    class func appVersionNumberDisplayString() -> String {
+        guard let infoDictionary = Bundle.main.infoDictionary,
+            let majorVersion = infoDictionary["CFBundleShortVersionString"],
+            let minorVersion = infoDictionary["CFBundleVersion"] else {
+                return ""
+        }
+        
+        return "\(majorVersion).\(minorVersion)"
     }
 }
 

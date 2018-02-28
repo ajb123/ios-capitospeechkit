@@ -1,5 +1,5 @@
 PODS:
-  - CapitoSpeechKit (3.5.2):
+  - CapitoSpeechKit (3.5.3):
     - RestKit (~> 0.27.0)
     - SpeechKit (~> 2.2)
   - ISO8601DateFormatterValueTransformer (0.6.1):

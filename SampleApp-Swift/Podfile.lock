@@ -1,5 +1,5 @@
 PODS:
-  - CapitoSpeechKit (3.5.3):
+  - CapitoSpeechKit (3.5.6):
     - RestKit (~> 0.27.0)
     - SpeechKit (~> 2.2)
   - ISO8601DateFormatterValueTransformer (0.6.1):
@@ -35,7 +35,7 @@ DEPENDENCIES:
   - TWMessageBarManager
 
 SPEC CHECKSUMS:
-  CapitoSpeechKit: bba47a8a1544541d98930dbb045a24220fd1b68a
+  CapitoSpeechKit: 21eeab2c661d9cddf602df186d0f2906c7e4cf02
   ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
   MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
   RestKit: 556c913b0640c5bc5a9cb972361504e3ed628a1d
